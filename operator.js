@@ -33,4 +33,46 @@ let full_name = f_name + " " + l_name;
 console.log(full_name); // Sonatan Paul
 */
 
-// rimainder
+// remainder
+
+/*
+let number = 12;
+let number2 = 5;
+let result = number % number2;
+console.log(result);
+*/
+
+// pre-increment and post increment
+
+/*
+let count = 5;
+console.log(count++);
+console.log(count++);
+*/
+
+/*
+let number = 6;
+console.log(--number);
+console.log(--number);
+console.log(--number);
+*/
+
+// assignment operator
+/*
+let number = 10;
+number = number + 10;
+console.log(number);
+// short hand
+number += 10;
+console.log(number);
+*/
+
+/*
+let number = 10;
+number = number - 5;
+console.log(number); // 5
+number -= 2;
+console.log(number); // 3
+*/
+
+
