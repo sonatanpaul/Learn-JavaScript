@@ -133,3 +133,72 @@ console.log(variable);
 let type = typeof variable;
 console.log(type); // object
 */
+
+// variable memory
+
+// task
+
+// try let keyword
+// let person = "Sonatan Paul";
+// console.log(person);
+// let age = 26;
+// console.log(age);
+// let isStudent = true;
+// console.log(isStudent);
+// let fovoriteProgramming = "JavaScript";
+// console.log(fovoriteProgramming);
+// person = "Sonatan";
+// console.log(person);
+// age = 27;
+// console.log(age);
+// isStudent = false;
+// console.log(isStudent);
+
+// try const keyword
+/*
+const person = "Sonatan";
+console.log(person);
+const age = 26;
+console.log(age);
+const isStudent = false;
+console.log(isStudent);
+const fovoriteProgramming = "JavaScript";
+console.log(fovoriteProgramming);
+*/
+
+// try re-assgin with const keyword
+
+/*
+person = "Sonatan Paul";
+console.log(person); // Error: reason const keyword variable can't re-declare
+age = 27;
+console.log(age); // Error: reason const keyword variable can't redeclare
+*/
+
+// array
+
+/*
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(numbers);
+let type = Array.isArray(numbers);
+console.log(type); // true
+// re-assgin array
+numbers = [2, 4, 6, 8, 10];
+console.log(numbers); // 2, 4, 6, 8, 10
+*/
+
+// object
+/*
+let person = {
+  name: "Sonatan",
+  age: 27,
+  isStudent: true,
+};
+console.log(person);
+let type = typeof person;
+console.log(type); // object
+
+// re-assign object
+person = { name: "Sonatan Paul", age: 27, isStudent: false };
+console.log(person);
+*/
