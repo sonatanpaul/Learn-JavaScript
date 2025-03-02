@@ -1,8 +1,8 @@
 // Operator
 // ==================================================================
-// operator name :  + - * /
-// oprends name :  a + b // a and b is operands
-// expression name : a + b or let x = a + b is expression
+// operator name :  + - * / .
+// oprends name :  a + b // a and b is operands .
+// expression name : a + b or let x = a + b is expression .
 
 // arithmetic operator number :
 /*
@@ -75,4 +75,32 @@ number -= 2;
 console.log(number); // 3
 */
 
+// comparison operator
 
+// const number = 10;
+// const number1 = 10;
+// const comparison = number == number1;
+// console.log(comparison);
+
+// using ==
+// let num1 = 10;
+// let num2 = "10";
+// let result = num1 == num2;
+// console.log(result); // true note == check only value
+
+// using ===
+// let result1 = num1 === num2;
+// console.log(result1); // false === check value and data type
+
+let number = 0;
+let isPassed = false;
+// let result = number == isPassed;
+// console.log(result); // true check value
+
+let result = number === isPassed;
+console.log(result); // false check value and data type
+
+console.log(null === null); // true
+console.log(null == undefined); // true only value check
+console.log(null === undefined); // false check data type and value
+console.log(NaN == null);
