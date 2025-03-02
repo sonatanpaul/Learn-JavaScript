@@ -84,3 +84,52 @@ console.log(name); // const keyword can't re-declare allowed
 name = 'Sonatan Kumar Paul'
 console.log(name) // const keyword also can't allowed re-assgin
 */
+
+// variable declare
+let name; //this is variable declare
+name = "Sonatan Paul"; //this is variable assign
+
+// variable type
+/*
+// 01.String
+let names = "Sonatan Paul";
+console.log(names);
+names = "sonatanpaul";
+console.log(names);
+let type = typeof names; // string
+console.log(type);
+*/
+
+/*
+let number = 50;
+console.log(number);
+// re-assgin
+number = 120;
+console.log(number);
+let type = typeof number;
+console.log(type); // number
+*/
+
+/*
+let isPassed = true;
+console.log(isPassed); // true
+// re-assign
+isPassed = false;
+console.log(isPassed); // false
+let type = typeof isPassed;
+console.log(type); // boolean
+*/
+
+/*
+let variable;
+console.log(variable);
+let type = typeof variable;
+console.log(type); // undefined
+*/
+
+/*
+let variable = null;
+console.log(variable);
+let type = typeof variable;
+console.log(type); // object
+*/
