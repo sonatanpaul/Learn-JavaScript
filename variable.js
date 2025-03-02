@@ -56,3 +56,31 @@ console.log(number1);
 number2 = number1;
 console.log(number2);
 */
+
+// var keyword
+/*
+var name = "Sonatan";
+console.log(name);
+var name = "Sonatan Paul";
+console.log(name);
+name = "Kabil";
+console.log(name);
+*/
+
+/*
+let name = "Sonatan";
+console.log(name); // Sonatan
+let name = "Sonatan Paul"; // Error : Can't Re-declare allowed
+console.log(name);
+name = "Sonatan Kumar Paul"; // But Reassgin is Ok
+console.log(name);
+*/
+
+/*
+const name = "Sonatan";
+console.log(name); // Sonatan
+const name = "Sonatan Paul";
+console.log(name); // const keyword can't re-declare allowed
+name = 'Sonatan Kumar Paul'
+console.log(name) // const keyword also can't allowed re-assgin
+*/
