@@ -1,4 +1,4 @@
-console.log("hello world");
+// console.log("hello world");
 
 // let variable = "Sonatan Paul";
 // console.log(variable);
@@ -38,4 +38,21 @@ let isFail = false;
 console.log(isFail); // false
 isFail = true;
 console.log(isFail);
+*/
+
+/*
+let number1 = 50;
+console.log(number1); // 50
+let number2 = 40;
+console.log(number2); // 40
+// change the value
+number1 = number2;
+console.log(number1);
+console.log(number2);
+// change number2
+number2 = 80;
+console.log(number2);
+console.log(number1);
+number2 = number1;
+console.log(number2);
 */
