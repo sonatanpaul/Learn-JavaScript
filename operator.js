@@ -298,3 +298,17 @@ console.log(~5);
 console.log(5 << 3);
 console.log(5 >> 4);
 */
+
+
+// string operator  
+/*
+let fname = "Sonatan";
+let lname = "Paul";
+let fullName = fname + " " + lname;
+console.log(fullName);
+console.log("hello".length); // 5
+console.log("JavaScript".indexOf("Script")); // 4
+console.log("Banaana".substring(1, 4)); // ana
+*/
+
+
