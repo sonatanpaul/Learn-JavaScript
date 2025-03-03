@@ -299,8 +299,7 @@ console.log(5 << 3);
 console.log(5 >> 4);
 */
 
-
-// string operator  
+// string operator
 /*
 let fname = "Sonatan";
 let lname = "Paul";
@@ -311,4 +310,14 @@ console.log("JavaScript".indexOf("Script")); // 4
 console.log("Banaana".substring(1, 4)); // ana
 */
 
+//  typeof operator
+console.log(typeof 40);
+console.log(typeof "Paul");
+console.log(+"Paul");
+console.log(-"Paul");
 
+let x = 5;
+console.log(x++);
+console.log(x);
+console.log(--x);
+console.log(x);
