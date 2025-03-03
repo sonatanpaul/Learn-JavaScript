@@ -272,3 +272,15 @@ console.log(c); // 16
 null == undefined ? console.log(true) : console.log(false);
 null === undefined ? console.log(true) : console.log(false);
 */
+
+// Logical Operator
+console.log(true && false);
+console.log(false && true);
+console.log(true || false);
+console.log(false || true);
+console.log(!true);
+console.log(!false);
+console.log(5 > 3 && 2 < 4);
+console.log(7 < 5 || 4 < 2);
+console.log(7 < 5 || 4 > 2);
+console.log(!(4 == 4));
