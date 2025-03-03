@@ -97,10 +97,35 @@ let isPassed = false;
 // let result = number == isPassed;
 // console.log(result); // true check value
 
-let result = number === isPassed;
-console.log(result); // false check value and data type
+// let result = number === isPassed;
+// console.log(result); // false check value and data type
 
-console.log(null === null); // true
-console.log(null == undefined); // true only value check
-console.log(null === undefined); // false check data type and value
-console.log(NaN == null);
+// console.log(null === null); // true
+// console.log(null == undefined); // true only value check
+// console.log(null === undefined); // false check data type and value
+// console.log(NaN == null);
+
+// console.log(0 == -0);
+// console.log(0 === -0);
+// console.log(0 == false);
+// console.log(0 === false);
+// console.log(0 == 0);
+// console.log(0 == null);
+// console.log(0 == undefined);
+// console.log(0 === undefined);
+// console.log(0 == "");
+// console.log(0 == false);
+
+// Logical Operator
+
+// if (10 > 5 && 10 < 5) {
+//   console.log("true");
+// } else {
+//   console.log("false");
+// }
+
+// if (10 > 15 && 6 < 10) {
+//   console.log("True");
+// } else {
+//   console.log("false");
+// }
