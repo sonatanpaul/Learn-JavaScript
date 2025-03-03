@@ -157,3 +157,105 @@ let isPassed = false;
 
 // age > 16 ? console.log("You Do") : console.log("You Can't Do");
 // age >= 25 ? console.log("Yes You Win") : console.log("You Can't Do");
+
+// console.log(false && true);
+// console.log(true && false);
+// console.log("" && true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(null ?? true);
+// console.log(true ?? null);
+
+// bitwise operator
+// console.log(1111 & 1001);
+// console.log(15 & 9);
+// console.log(15 | 9);
+// console.log(15 ^ 9);
+// console.log(9 << 2);
+// console.log(9 >> 2);
+
+// Problem Solve with Only operator and Expression
+
+/*
+let num1 = 5;
+let num2 = 3;
+let sum = num1 + num2;
+console.log(sum); // 8
+*/
+
+/*
+let num1 = 10;
+let num2 = 4;
+let result = num1 - num2;
+console.log(result); // 6
+*/
+
+/*
+let num1 = 7;
+let num2 = 2;
+let multi = num1 * num2;
+console.log(multi); // 14
+*/
+
+/*
+let num1 = 20;
+let num2 = 5;
+let result = num1 / num2;
+console.log(result); // 4
+*/
+
+/*
+let num1 = 14;
+let num2 = 3;
+let result = num1 % num2;
+console.log(result); // 2
+*/
+
+/*
+let num1 = 3;
+let num2 = 2;
+let result = num1 ** num2;
+console.log(result);
+*/
+
+/*
+let x = 5;
+console.log(x);
+x += 2; // x = x + 2
+console.log(x); //7
+*/
+
+/*
+let y = 10;
+console.log(y);
+y -= 4; // y = y - 4
+console.log(y); // 6
+*/
+
+/*
+let z = 6;
+console.log(z);
+z *= 3; // z = z * 3
+console.log(z); // 18
+*/
+
+/*
+let a = 8;
+console.log(a); // 8
+a /= 2; // a = a / 2
+console.log(a); // 4
+*/
+
+/*
+let b = 12;
+console.log(b); // 12
+b %= 5; //b =b% 5
+console.log(b); // 2
+*/
+
+/*
+let c = 4;
+console.log(4); // 4
+c **= 2; // c = c ** 2
+console.log(c); // 16
+*/
