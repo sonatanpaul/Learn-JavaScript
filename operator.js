@@ -311,13 +311,29 @@ console.log("Banaana".substring(1, 4)); // ana
 */
 
 //  typeof operator
-console.log(typeof 40);
-console.log(typeof "Paul");
-console.log(+"Paul");
-console.log(-"Paul");
+// console.log(typeof 40);
+// console.log(typeof "Paul");
+// console.log(+"Paul");
+// console.log(-"Paul");
+// let x = 5;
+// console.log(x++);
+// console.log(x);
+// console.log(--x);
+// console.log(x);
 
-let x = 5;
-console.log(x++);
-console.log(x);
-console.log(--x);
-console.log(x);
+// ternary operator
+console.log(5 > 3 ? "Yes" : "No");
+console.log(1 < 3 ? "Yes" : "No");
+console.log(4 < 3 ? "Yes" : "No");
+console.log(5 + 3 * 2);
+console.log((5 + 3) * 2);
+console.log(10 / 2 + 5);
+console.log(10 / (2 + 5));
+console.log(10 + "5");
+console.log("10" - "5");
+console.log("10" / "2");
+console.log(true + 1);
+console.log(false + 1);
+console.log(null + 1);
+console.log(undefined + 1);
+console.log("5" + 2);
