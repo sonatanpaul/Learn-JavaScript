@@ -145,8 +145,15 @@ let isPassed = false;
 // console.log("Sontan" ?? false);
 // console.log(true ?? "Sonatan");
 
-console.log(false || true);
-console.log("Sonatan" || false);
-console.log("" || true);
-console.log("" && false);
-console.log(false && "");
+// console.log(false || true);
+// console.log("Sonatan" || false);
+// console.log("" || true);
+// console.log("" && false);
+// console.log(false && "");
+
+// conditional ternary operator
+
+// let age = 20;
+
+// age > 16 ? console.log("You Do") : console.log("You Can't Do");
+// age >= 25 ? console.log("Yes You Win") : console.log("You Can't Do");
