@@ -129,3 +129,24 @@ let isPassed = false;
 // } else {
 //   console.log("false");
 // }
+
+// // || operator
+// console.log(false || true);
+// console.log(true || false);
+// console.log(false || false);
+// console.log(true || true);
+// console.log(0 || true);
+// console.log(null || true);
+// console.log(true || undefined);
+
+// ?? operator
+// console.log(null ?? false);
+// console.log(undefined ?? true);
+// console.log("Sontan" ?? false);
+// console.log(true ?? "Sonatan");
+
+console.log(false || true);
+console.log("Sonatan" || false);
+console.log("" || true);
+console.log("" && false);
+console.log(false && "");
