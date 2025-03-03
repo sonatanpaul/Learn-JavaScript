@@ -259,3 +259,16 @@ console.log(4); // 4
 c **= 2; // c = c ** 2
 console.log(c); // 16
 */
+
+// comparison operator
+/*
+5 > 3 ? console.log(true) : console.log(false);
+5 < 10 ? console.log(true) : console.log(false);
+6 != 9 ? console.log(true) : console.log(false);
+4 >= 4 ? console.log(true) : console.log(false);
+2 <= 3 ? console.log(true) : console.log(false);
+5 == "5" ? console.log(true) : console.log(false);
+5 === "5" ? console.log(true) : console.log(false);
+null == undefined ? console.log(true) : console.log(false);
+null === undefined ? console.log(true) : console.log(false);
+*/
