@@ -70,3 +70,33 @@ if (number === 0) {
 */
 
 // Only Answer : Your Score 0
+
+let condition = true;
+let innerCondition = false;
+
+/*
+if (condition) {
+  console.log("Outer if");
+  if (innerCondition) {
+    console.log("inner if");
+  } else {
+    console.log("inner else");
+  }
+} else {
+  console.log("Outer Else");
+}
+*/
+
+/*
+if (condition) {
+  console.log("Outer if");
+  if (innerCondition) {
+    console.log("Inner If");
+  } else {
+    console.log("Outer else");
+  }
+} else {
+  console.log("Outer Else");
+}
+
+*/
