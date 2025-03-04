@@ -107,3 +107,22 @@ function sum(a = 30, b = 20) {
 }
 sum();
 */
+
+// template string
+/*
+let name = "Sonatan\nPaul";
+console.log(name);
+*/
+
+/*
+let name = "Sonatan Paul";
+let age = 26;
+
+let information =
+  "My name is" + " " + name + " " + "my age is" + " " + age + ".";
+console.log(information);
+
+let info = `My name is ${name} and my age is ${age}.`;
+console.log(info);
+*/
+
