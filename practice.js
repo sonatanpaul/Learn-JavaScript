@@ -171,3 +171,57 @@ const printMe = (a = 20, b) => console.log(a + b);
 printMe(undefined, 20);
 
 */
+
+// Spreed Operator
+
+// copy new array with slice method
+/*
+const array = [1, 2, 3, 4, 5, 6, 7];
+const newArray = array.slice();
+console.log(array);
+console.log(newArray);
+const another = array.slice(1, 3);
+console.log(another);
+console.log(array);
+*/
+
+/*
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(array);
+const newArray = [...array];
+console.log(newArray);
+// check two array some or not
+const check = array === newArray;
+console.log(check);
+*/
+
+/*
+let array = [1, 2, 3, 4, 5, 6];
+let newArray = array;
+console.log(array);
+console.log(newArray);
+const check = array === newArray;
+console.log(check);
+*/
+
+/*
+const array = [1, 2, 3, 4, 5, 6];
+const newArray = [...array, 7, 8, 9, 10];
+console.log(array);
+console.log(newArray);
+*/
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const bigNumber = Math.max(...numbers);
+// console.log(bigNumber);
+
+/*
+console.log(Math.max(10, 25, 300));
+console.log(Math.max(10, "20", 35));
+console.log(Math.max(10, "Paul", 25));
+console.log(Math.min(12, 3, 5, 74, 1));
+console.log(Math.min(...numbers));
+console.log(Math.max());
+console.log(Math.min());
+console.log(Math.min("12", 25, 28, 30));
+*/
