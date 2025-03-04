@@ -215,6 +215,7 @@ switch (true) {
 // }
 
 // Winter, Summer, Fall, Spring Month check
+/*
 let month = "April";
 
 switch (month) {
@@ -241,3 +242,4 @@ switch (month) {
   default:
     console.log("Invalid Month Name");
 }
+*/
