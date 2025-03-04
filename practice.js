@@ -126,3 +126,48 @@ let info = `My name is ${name} and my age is ${age}.`;
 console.log(info);
 */
 
+// arrow funtion
+
+/*
+function myFunction() {
+  console.log("hello world");
+}
+myFunction();
+*/
+
+/*
+const myFunction = function () {
+  console.log("hello world");
+};
+myFunction();
+
+*/
+
+/*
+const myFunction = () => {
+  console.log("hello world");
+};
+myFunction();
+
+*/
+
+/*
+const printMe = (a, b) => console.log(a + b);
+printMe(10, 20);
+*/
+
+/*
+const printMe = (a) => console.log(a * 2);
+printMe(5);
+*/
+
+/*
+const printMe = (a, b = 20) => console.log(a + b);
+printMe(20);
+*/
+
+/*
+const printMe = (a = 20, b) => console.log(a + b);
+printMe(undefined, 20);
+
+*/
