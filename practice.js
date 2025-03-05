@@ -227,11 +227,11 @@ console.log(Math.min("12", 25, 28, 30));
 */
 
 // destructuring in javascript
-const person = {
-  name: "Paul",
-  age: 26,
-  Married: false,
-};
+// const person = {
+//   name: "Paul",
+//   age: 26,
+//   Married: false,
+// };
 
 // console.log(person.age);
 // console.log(person["name"]);
@@ -248,13 +248,50 @@ const person = {
 
 // array
 
-const friends = ["anik", "rayhan", "ashraful"];
+// const friends = ["anik", "rayhan", "ashraful"];
 // console.log(friends[0]);
 // console.log(friends[2]);
 // const [anik, rayhan, ashraful] = friends;
 // console.log(anik);
 // console.log(rayhan);
 
-const [anik, , ashraful] = friends;
-console.log(anik);
-console.log(ashraful);
+// const [anik, , ashraful] = friends;
+// console.log(anik);
+// console.log(ashraful);
+
+// object propertice
+
+// const person = {
+//   name: "Paul",
+//   age: 26,
+//   countrty: "Bangladesh",
+// };
+
+// How to off object update
+
+// new key value add not allwoed
+// const updateOff = Object.seal(person);
+// person.isMarried = false;
+// person.age = 27;
+// console.log(person);
+// // update and new value add not allowed
+// const freze = Object.freeze(person);
+// person.isMarried = true;
+// person.fullName = "Sonatan Paul";
+// console.log(person);
+
+// check object key and values
+
+/*
+const keys = Object.keys(person);
+const keysLength = Object.keys(person).length;
+console.log(keys);
+console.log(keysLength);
+const values = Object.values(person);
+const valuesLength = Object.values(person).length;
+console.log(values);
+console.log(valuesLength);
+
+const entries = Object.entries(person);
+console.log(entries);
+*/
