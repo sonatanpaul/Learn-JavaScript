@@ -9,10 +9,10 @@ console.log(template);
 
 // object :
 
-const person = {
-  name: "Paul",
-  age: 26,
-};
+// const person = {
+//   name: "Paul",
+//   age: 26,
+// };
 
 /*
 console.log(person);
@@ -47,3 +47,28 @@ person.fullName = "Kumar Paul";
 person.age = 28;
 console.log(person);
 */
+
+// how to access object properties
+
+/*
+const person = {
+  name: "Paul",
+  age: 26,
+  friends: ["anik", "asraful", "rayhan"],
+  details: {
+    fColor: "Blue",
+    status: "No Data",
+    1: 10,
+  },
+};
+
+console.log(person);
+console.log(person.name);
+console.log(person.friends);
+console.log(person.friends[2]);
+console.log(person.details.fColor);
+console.log(person.details[1]);
+console.log(person.details?.mother?.status);
+console.log(person["details"]["fColor"]);
+*/
+
