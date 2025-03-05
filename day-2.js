@@ -72,3 +72,36 @@ console.log(person.details?.mother?.status);
 console.log(person["details"]["fColor"]);
 */
 
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(numbers);
+
+/*
+let sum = [];
+for (let i = 0; i <= numbers.length - 1; i++) {
+  console.log(i);
+  //   const element = numbers[i];
+  sum.push(numbers[i] + 1);
+}
+
+console.log(sum);
+*/
+
+// const double = numbers.map((num) => num + 1);
+// console.log(double);
+// numbers.map((num) => console.log(num * 2));
+
+// const friends = ["Anik", "Asraful", "Rayhan"];
+// console.log(friends);
+
+// friends.map((frined) => console.log(frined));
+
+/*
+const person = [
+  { name: "Anik", age: 26 },
+  { name: "Paul", age: 26 },
+];
+*/
+
+// const friends = person.map((friend) => friend.name);
+// const friends = person.map((friend) => friend.age);
+// console.log(friends);
