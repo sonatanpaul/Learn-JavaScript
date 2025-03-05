@@ -105,3 +105,19 @@ const person = [
 // const friends = person.map((friend) => friend.name);
 // const friends = person.map((friend) => friend.age);
 // console.log(friends);
+
+// filter, find, forEach
+
+const persons = [
+  { name: "Sonatan", age: 27, color: "blue", isMarried: true },
+  { name: "Anik", age: 26, color: "black", isMarried: true },
+  { name: "Asraful", age: 27, color: "blue", isMarried: true },
+  { name: "Rayhan", age: 26, color: "black", isMarried: true },
+];
+
+// persons.forEach((person) => console.log(person.age));
+// const newPerson = persons.map((person) => person.name);
+// const newPerson = persons.find((person) => person.age === 27);
+// const newPerson = persons.filter((person) => person.color === "black");
+// const removePerson = persons.filter((person) => person.name !== "Rayhan");
+// console.log(removePerson);
