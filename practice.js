@@ -225,3 +225,36 @@ console.log(Math.max());
 console.log(Math.min());
 console.log(Math.min("12", 25, 28, 30));
 */
+
+// destructuring in javascript
+const person = {
+  name: "Paul",
+  age: 26,
+  Married: false,
+};
+
+// console.log(person.age);
+// console.log(person["name"]);
+// console.log(person["age"]);
+
+// const { name, age, Married } = person;
+// console.log(name);
+// console.log(Married);
+
+// const { name, age, profession = "student" } = person;
+
+// console.log(profession);
+// console.log(name);
+
+// array
+
+const friends = ["anik", "rayhan", "ashraful"];
+// console.log(friends[0]);
+// console.log(friends[2]);
+// const [anik, rayhan, ashraful] = friends;
+// console.log(anik);
+// console.log(rayhan);
+
+const [anik, , ashraful] = friends;
+console.log(anik);
+console.log(ashraful);
