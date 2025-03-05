@@ -295,3 +295,27 @@ console.log(valuesLength);
 const entries = Object.entries(person);
 console.log(entries);
 */
+
+// for in loop with object
+
+const person = {
+  name: "paul",
+  age: 27,
+  city: "Dhaka",
+};
+
+// const myAge = "age";
+// console.log(person.myAge);
+// console.log(person[myAge]);
+
+// for (const key in person) {
+//   console.log(key, person[key]);
+// }
+
+// for of
+// for (let key of Object.entries(person)) {
+//   const [keys, value] = key;
+//   console.log(keys, value);
+// }
+
+
