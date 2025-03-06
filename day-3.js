@@ -182,3 +182,65 @@ if (!name) {
   console.log("false");
 }
 */
+
+// === Equal vs == Equal
+
+// note : === Equal check value or data type,
+// note : == Equal check only value,
+
+// let num1 = 10;
+// let num2 = 10;
+
+/*
+if (num1 == num2) {
+  console.log("This is value is Eqaul");
+} else {
+  console.log("This value is not Equal");
+}
+
+*/
+
+/*
+if (num1 === num2) {
+  console.log("Equal value");
+} else {
+  console.log("Not Equal value");
+}
+
+*/
+
+// let num1 = "10";
+// let num2 = 10;
+
+/*
+if (num1 == num2) {
+  console.log("Equal Value");
+} else {
+  console.log("Not Equal value");
+}
+// equal value
+
+if (num1 === num2) {
+  console.log("Eqaul value");
+} else {
+  console.log("Not Equal value");
+}
+// not equal value
+
+*/
+
+let array = [1, 2, 3, 4];
+let array1 = [1, 2, 3, 4];
+if (array == array1) {
+  console.log("Eqaul value");
+} else {
+  console.log("Not Equal value");
+} // not equal value
+
+// not : non primitive value value same holei reference alada hoi jar karney commpair korle false ase
+
+if (array === array1) {
+  console.log("equal value");
+} else {
+  console.log("not equal value");
+} // not equal value
