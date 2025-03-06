@@ -67,6 +67,118 @@ const result = sum(20, 10);
 console.log(result); // undefined , reason i cant return funtion
 */
 
+/*
 const name = null;
 console.log(name); // null , null means empty or nothing
 console.log(typeof null); // object 
+*/
+
+/*
+const name = "";
+
+if (name) {
+  console.log("This is Truthy Value");
+} else {
+  console.log("This is Falsey Value");
+}
+
+*/
+
+// const name = "Paul";
+// if (name) {
+//   console.log("True");
+// } else {
+//   console.log("False");
+// }
+
+/*
+const number = 0;
+
+if (number) {
+  console.log("True Value");
+} else {
+  console.log("False Value");
+}
+*/
+
+/*
+const number = 10;
+if (number) {
+  console.log("True value");
+} else {
+  console.log("False value");
+}
+*/
+
+/*
+const number = -0;
+if (number) {
+  console.log("True value");
+} else {
+  console.log("False value");
+}
+
+*/
+
+/*
+const number = -5;
+if (number) {
+  console.log("True Value");
+} else {
+  console.log("false Value");
+}
+*/
+
+/*
+const value = null;
+
+if (value) {
+  console.log("True Value");
+} else {
+  console.log("false value");
+}
+*/
+
+/*
+const value = undefined;
+if (value) {
+  console.log("True value");
+} else {
+  console.log("False value");
+}
+*/
+
+/*
+const array = [];
+if (array) {
+  console.log("true value");
+} else {
+  console.log("false value");
+}
+
+const object = {};
+if (object) {
+  console.log("true value");
+} else {
+  console.log("false value");
+}
+*/
+
+/*
+const number = 2;
+
+if (!number) {
+  console.log("true value");
+} else {
+  console.log("false value");
+}
+*/
+
+/*
+const name = "";
+if (!name) {
+  console.log("true value");
+} else {
+  console.log("false");
+}
+*/
