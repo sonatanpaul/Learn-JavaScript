@@ -39,3 +39,34 @@ console.log(newFriends);
 console.log(friends);
 */
 
+// learn undefined
+
+// console.log(name);
+// var name = "Sonatan";
+
+/*
+let number;
+console.log(number); //  undefined
+number = 20;
+console.log(number); // 20
+console.log(typeof undefined); // undefined
+
+function sum(a, b) {
+  console.log(a, b); // undefined undefined , reason argument no passing
+}
+
+sum();
+*/
+
+/*
+function sum(a, b) {
+  console.log(a, b);
+}
+
+const result = sum(20, 10);
+console.log(result); // undefined , reason i cant return funtion
+*/
+
+const name = null;
+console.log(name); // null , null means empty or nothing
+console.log(typeof null); // object 
