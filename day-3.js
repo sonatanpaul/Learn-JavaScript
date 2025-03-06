@@ -27,3 +27,15 @@ person.name = "Sonatan Paul";
 console.log(person);
 console.log(newPerson);
 */
+
+/*
+const friends = ["Anik", "Rayhan", "Asraful"];
+console.log(friends);
+const newFriends = friends;
+console.log(newFriends);
+
+newFriends[1] = "Akash";
+console.log(newFriends);
+console.log(friends);
+*/
+
