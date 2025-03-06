@@ -360,3 +360,42 @@ function inner(name) {
 
 outer(inner, "Paul");
 */
+
+// function argument and parameter
+
+/*
+function sum(a, b, c, d, e, f) {
+  console.log(arguments);
+  const newArr = [...arguments];
+  console.log(newArr);
+  console.log(a, b, c, d, e, f); // parameter
+}
+
+// argument
+sum(1, 2, 3, 4, 5, 6);
+*/
+
+const person = {
+  name: "Paul",
+  age: 26,
+  color: "blue",
+};
+function myName(obj) {
+  obj.name = "Sonatan Paul";
+  //   console.log(obj);
+}
+console.log(person);
+myName(person);
+console.log(person);
+
+const number = 20;
+
+function myNumber(number) {
+  number = 50;
+  console.log(number);
+}
+
+console.log(number);
+myNumber(number);
+
+console.log(number);
