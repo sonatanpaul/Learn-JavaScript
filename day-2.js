@@ -121,3 +121,35 @@ const persons = [
 // const newPerson = persons.filter((person) => person.color === "black");
 // const removePerson = persons.filter((person) => person.name !== "Rayhan");
 // console.log(removePerson);
+
+// const cube=x=> x*x*x;
+// console.log(cube(2))
+
+// const [a, b] = [1,2,3,4,45,5];
+// console.log(a+b);
+
+// const nums = [1,2,3,4,5];
+// let output = nums.filter(n => n%2);
+// console.log(output);
+
+// class CarName {
+//   constructor(name, year) {
+//     this.name = name;
+//     this.year = year;
+//   }
+// }
+
+// const car1 = new CarName("Ford", 2025);
+// console.log(car1);
+
+// class CarName {
+//   constructor(name, model, year) {
+//     this.name = name;
+//     this.model = model;
+//     this.year = year;
+//   }
+// }
+
+// const car = new CarName("Ford", "X", 2025);
+// console.log(car);
+// console.log(car.name, car.model);
