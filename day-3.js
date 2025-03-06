@@ -229,6 +229,7 @@ if (num1 === num2) {
 
 */
 
+/*
 let array = [1, 2, 3, 4];
 let array1 = [1, 2, 3, 4];
 if (array == array1) {
@@ -244,3 +245,65 @@ if (array === array1) {
 } else {
   console.log("not equal value");
 } // not equal value
+
+*/
+
+// Hoiting
+// var, let , const
+
+/*
+console.log(myName); // undifined
+var myName = "Sonatan";
+
+console.log(name); // Error
+let name = "Sonatan";
+
+console.log(names);
+const names = "Sonatan";
+*/
+
+/*
+{
+  var name = "Sonatan";
+  console.log(name); // allowed;
+}
+
+console.log(name); // allowed;
+*/
+
+// console.log(name);
+
+/*
+{
+  let names = "Sonatan";
+  //   console.log(names); // allowed
+}
+
+console.log(names); // not allowed
+
+*/
+
+// Note : let always block scope
+
+/*
+{
+  const number = 10;
+  console.log(number); // allwoed
+}
+console.log(number); // not allowed
+*/
+
+// Note : Const always block scope
+
+/*
+function sum(a, b) {
+  var result = a + b;
+  console.log(result); // allowed
+}
+sum(10, 20);
+
+console.log(result); // not allwoed
+*/
+
+// Note : var always function scope 
+
