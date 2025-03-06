@@ -153,3 +153,92 @@ const persons = [
 // const car = new CarName("Ford", "X", 2025);
 // console.log(car);
 // console.log(car.name, car.model);
+
+// console.log("hello ");
+
+/*
+class CarName {
+  constructor(name, model, year, color) {
+    this.name = name;
+    this.color = color;
+    this.model = model;
+    this.year = year;
+  }
+}
+
+const car = new CarName("Toyota", "X", 2025, "Blue");
+console.log(car);
+*/
+
+// Methods for Defining JavaScript Objects
+
+// option 1 JavaScript Object Literal
+/*
+const person = {
+  name: "Sonatan",
+  age: 26,
+  color: "Blue",
+  isMarried: false,
+};
+*/
+// option 2 Create an empty JavaScript object using new Object()
+// const person = new Object({ name: "sonatan", age: 26 });
+// console.log(person);
+// person.color = "Blue";
+// console.log(person);
+
+// Option 3
+
+/*
+function Person(name, age, color, isMarried) {
+  this.name = name;
+  this.age = age;
+  this.isMarried = isMarried;
+  this.color = color;
+}
+
+const father = new Person("Kartik", 50, "Blue", true);
+console.log(father);
+const brother = new Person("Manik", 28, "Blue", false);
+console.log(brother);
+*/
+
+//Property Default Values
+
+/*
+function Person(name, age, color) {
+  this.name = name;
+  this.age = age;
+  this.color = color;
+  this.nationality = "Bangladesh";
+}
+
+const mySelf = new Person("Paul", 26, "Black");
+const brother = new Person("Bijoy", 18, "White");
+console.log(mySelf);
+console.log(brother);
+*/
+
+function Person(name, age, color) {
+  this.name = name;
+  this.age = age;
+  this.color = color;
+}
+
+const mySelf = new Person("Paul", 26, "Black");
+console.log(mySelf);
+// Person.nationality = "Bangladesh"; not allowed
+// mySelf.nationality = "Bangladesh"; // only mySelf e allowed
+console.log(mySelf);
+const brother = new Person("Bijoy", 18, "White");
+console.log(brother);
+
+Person.prototype.nationality = "Bangla";
+// console.log(mySelf.nationality);
+// console.log(brother.nationality);
+console.log(mySelf);
+
+Person.prototype.fullName = function () {
+  return this.name;
+};
+console.log(brother.fullName());
