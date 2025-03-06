@@ -307,8 +307,8 @@ console.log(result); // not allwoed
 
 // Note : var always function scope
 
-
-// closure 
+// closure
+/*
 function outer() {
   let f_name = "Sonatan";
   let l_name = "Paul";
@@ -321,3 +321,42 @@ function outer() {
 }
 
 outer();
+*/
+
+// callback Funtion
+
+/*
+function outer(inner) {
+  console.log("Outer");
+  inner();
+}
+
+function inner() {
+  console.log("Inner");
+}
+
+outer(inner);
+*/
+
+/*
+function outer(func, name) {
+  console.log("Outer");
+  func(name);
+}
+outer(function (name) {
+  console.log("Hello", name);
+}, "Sonatan");
+*/
+
+/*
+function outer(func, name) {
+  console.log("Outer");
+  func(name);
+}
+
+function inner(name) {
+  console.log("Inner", name);
+}
+
+outer(inner, "Paul");
+*/
