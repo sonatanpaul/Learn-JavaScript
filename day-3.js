@@ -305,5 +305,19 @@ sum(10, 20);
 console.log(result); // not allwoed
 */
 
-// Note : var always function scope 
+// Note : var always function scope
 
+
+// closure 
+function outer() {
+  let f_name = "Sonatan";
+  let l_name = "Paul";
+
+  function inner() {
+    let fullName = f_name + " " + l_name;
+    console.log(fullName);
+  }
+  inner();
+}
+
+outer();
