@@ -121,7 +121,7 @@ for (let i = 5; i >= 1; i--) {
 
 // console.log(j);
 
-let counter = 10;
+// let counter = 10;
 
 // 1 to 100
 /*
@@ -137,4 +137,20 @@ while (counter >= 1) {
   console.log(counter);
   counter--;
 }
+*/
+
+/*
+let number = 1;
+
+do {
+  console.log(number);
+  number++;
+} while (number <= 10);
+
+let count = 10;
+
+do {
+  console.log(count);
+  count--;
+} while (count >= 1);
 */
