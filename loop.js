@@ -52,3 +52,11 @@ for (let i = 100; i >= 1; i--) {
 }
 console.log(totalOdd);
 */
+
+// nested loop
+
+for (let i = 1; i <= 1; i++) {
+  for (let j = 1; j <= 3; j++) {
+    console.log("Row", i, "Col", j);
+  }
+}
