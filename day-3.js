@@ -375,6 +375,7 @@ function sum(a, b, c, d, e, f) {
 sum(1, 2, 3, 4, 5, 6);
 */
 
+/*
 const person = {
   name: "Paul",
   age: 26,
@@ -399,3 +400,11 @@ console.log(number);
 myNumber(number);
 
 console.log(number);
+
+*/
+const isTrue = true;
+console.log(!isTrue ? "hello" : "world");
+function work(x, y = 4) {
+  return x + y;
+}
+console.log(work(32));
