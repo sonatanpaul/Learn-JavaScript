@@ -79,9 +79,62 @@ for (let i = 1; i <= 10; i++) {
 
 /*
 for (let i = 1; i <= 10; i++) {
-  if (i === 8) {
+  if (i === *) {
     continue;
   }
   console.log(i);
+}
+
+*/
+
+// for (let i = 1; i <= 5; i++) {
+//   let star = "";
+//   for (let j = 1; j <= i; j++) {
+//     // console.log(j);
+//     star = star + j;
+//   }
+//   console.log(star);
+// }
+
+for (let i = 5; i >= 1; i--) {
+  let satar = "";
+  for (let j = 1; j <= i; j++) {
+    satar = satar + "*";
+  }
+  console.log(satar);
+}
+
+// while loop
+
+// let i = 1;
+
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// let j = 1;
+// while (j >= 10) {
+//   console.log(j);
+//   j--;
+// }
+
+// console.log(j);
+
+let counter = 10;
+
+// 1 to 100
+/*
+while (counter <= 10) {
+  console.log(counter);
+  counter++;
+}
+
+*/
+
+/*
+while (counter >= 1) {
+  console.log(counter);
+  counter--;
 }
 */
