@@ -68,8 +68,25 @@ fetch("https://jsonplaceholder.typicode.com/todos")
 //   .then((response) => response.json())
 //   .then((data) => console.log(data));
 
+// function handleData() {
+//   fetch("https://jsonplaceholder.typicode.com/todos")
+//     .then((response) => response.json())
+//     .then((data) => console.log(data));
+// }
+
+console.log("hello");
+
 function handleData() {
-  fetch("https://jsonplaceholder.typicode.com/todos")
-    .then((response) => response.json())
-    .then((data) => console.log(data));
+  fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((res) => res.json())
+    .then((data) => displayUser(data));
 }
+
+const displayUser = (users) => {
+  const container = document.getElementById("container");
+  for (const user of users) {
+    const li = document.createElement("li");
+    li.innerText = user.body + " " + user.title;
+    container.appendChild(li);
+  }
+};
