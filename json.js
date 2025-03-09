@@ -63,3 +63,13 @@ fetch("https://jsonplaceholder.typicode.com/todos")
   .then((data) => console.log(data));
 
   */
+
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+
+function handleData() {
+  fetch("https://jsonplaceholder.typicode.com/todos")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+}
