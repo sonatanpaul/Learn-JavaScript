@@ -9,4 +9,9 @@ const person = {
 // how to convert object to JSON
 
 const newPerson = JSON.stringify(person);
-console.log(newPerson);
+// console.log(newPerson);
+
+// how to convert JSON to object
+
+const newPerson2 = JSON.parse(newPerson);
+// console.log(newPerson2);
