@@ -198,3 +198,25 @@ retFunc();
 
 // greeting("Paul");
 
+// higer order function
+
+function getCamera(camera) {
+  console.log("Sony");
+  camera();
+}
+
+getCamera(function () {
+  console.log("Sony Camera");
+});
+
+// more option
+
+function returnFunc() {
+  console.log("Outer");
+  return function () {
+    console.log("Inner Function");
+  };
+}
+
+const func = returnFunc();
+func();
