@@ -155,3 +155,25 @@ function outer() {
 const retFunc = outer();
 retFunc();
 */
+
+// callback function
+
+// function foo(buzz) {
+//   console.log("Foo");
+//   buzz();
+// }
+
+// const buzz = function () {
+//   console.log("buzz");
+// };
+
+// foo(buzz);
+
+// function foo(buzz) {
+//   console.log("Foo");
+//   buzz();
+// }
+
+// foo(function () {
+//   console.log("buzz");
+// });
