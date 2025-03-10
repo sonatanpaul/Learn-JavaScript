@@ -20,11 +20,11 @@ myFunction();
 */
 // function as an expression
 
-const printMe = function () {
-  console.log("hello world");
-};
+// const printMe = function () {
+//   console.log("hello world");
+// };
 
-printMe();
+// printMe();
 
 // more one
 
@@ -55,3 +55,23 @@ function sum(a, b) {
 }
 sum(10, 20);
 */
+
+// function return keyword
+
+/*
+function sum(a, b) {
+  let result = a + b;
+  return result;
+}
+
+let totalSum = sum(10, 9);
+console.log(totalSum);
+
+function double(x) {
+  let result = 5 * x;
+  return result;
+}
+
+console.log(double(10));
+*/
+
