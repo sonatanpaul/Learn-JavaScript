@@ -36,3 +36,22 @@ const myFunction = function () {
 console.log(myFunction);
 myFunction();
 */
+
+// parameters and arguments
+/*
+function sum(a, b, c) {
+  let result = a * (b + c);
+  console.log(result);
+}
+
+sum(2, 4, 6);
+*/
+// More One
+
+/*
+function sum(a, b) {
+  let result = a + b;
+  console.log(result);
+}
+sum(10, 20);
+*/
