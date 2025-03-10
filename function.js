@@ -110,3 +110,24 @@ function sum(a = 10, b = 2) {
 let result = sum();
 console.log(result); 140
 */
+
+// rest parameters
+
+// function sum(a, b, c) {
+//   let result = a + b + c;
+//   return result;
+// }
+
+// let result = sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 7);
+// console.log(result);
+
+/*
+function sum(a, b, c, ...rest) {
+  let result = a + b + c;
+  console.log(...rest);
+  return result;
+}
+
+let result = sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 7);
+console.log(result);
+*/
