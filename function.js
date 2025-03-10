@@ -242,3 +242,22 @@ retFunc();
 // const func = (a) => a * 5;
 // const result = func(20);
 // console.log(func(20));
+
+// IIFE
+
+/*
+(function () {
+  console.log("hello");
+})();
+
+// more option
+(function (a, b) {
+  console.log(a + b);
+})(20, 20);
+
+// more option
+
+(function (a) {
+  console.log(a * 5);
+})(20);
+*/
