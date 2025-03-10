@@ -131,3 +131,27 @@ function sum(a, b, c, ...rest) {
 let result = sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 7);
 console.log(result);
 */
+
+// Nested function
+
+// function outer() {
+//   console.log("outer");
+//   function inner() {
+//     console.log("inner");
+//   }
+//   inner();
+// }
+
+// const retFunc = outer();
+
+/*
+function outer() {
+  console.log("outer");
+  return function inner() {
+    console.log("inner");
+  };
+}
+
+const retFunc = outer();
+retFunc();
+*/
