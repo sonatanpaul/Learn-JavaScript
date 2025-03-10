@@ -177,3 +177,24 @@ retFunc();
 // foo(function () {
 //   console.log("buzz");
 // });
+
+// Pure function
+
+// function greeting(name) {
+//   let names = "Hello" + " " + name;
+//   console.log(names);
+// }
+
+// greeting("Sonatan");
+
+// In pure function
+
+// let myName = "Hello";
+// function greeting(name) {
+//   console.log(myName + " " + name);
+// }
+
+// myName = "Hola";
+
+// greeting("Paul");
+
