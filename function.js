@@ -200,23 +200,45 @@ retFunc();
 
 // higer order function
 
-function getCamera(camera) {
-  console.log("Sony");
-  camera();
-}
+// function getCamera(camera) {
+//   console.log("Sony");
+//   camera();
+// }
 
-getCamera(function () {
-  console.log("Sony Camera");
-});
+// getCamera(function () {
+//   console.log("Sony Camera");
+// });
 
 // more option
 
-function returnFunc() {
-  console.log("Outer");
-  return function () {
-    console.log("Inner Function");
-  };
-}
+// function returnFunc() {
+//   console.log("Outer");
+//   return function () {
+//     console.log("Inner Function");
+//   };
+// }
 
-const func = returnFunc();
-func();
+// const func = returnFunc();
+// func();
+
+// arrow function
+
+// function myFunction() {
+//   console.log("hello");
+// }
+
+// myFunction();
+
+// const myFunction = () => {
+//   console.log("hello");
+// };
+// myFunction();
+
+// const func = (a, b) => a + b;
+
+// const result = func(20, 20);
+// console.log(result);
+
+// const func = (a) => a * 5;
+// const result = func(20);
+// console.log(func(20));
