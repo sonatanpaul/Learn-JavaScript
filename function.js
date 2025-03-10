@@ -75,3 +75,38 @@ function double(x) {
 console.log(double(10));
 */
 
+// default parameters
+
+// function sum(a, b) {
+//   let result = a * (b + 12);
+//   return result;
+// }
+// let result = sum(2, 10);
+// console.log(result); // 240
+
+/*
+function sum(a, b) {
+  let result = a * (b + 12);
+  return result;
+}
+let result = sum(2);
+console.log(result); NaN
+*/
+
+/*
+function sum(a, b = 10) {
+  let result = a * (b + 12);
+  return result;
+}
+let result = sum(2);
+console.log(result); //44
+*/
+
+/*
+function sum(a = 10, b = 2) {
+  let result = a * (b + 12);
+  return result;
+}
+let result = sum();
+console.log(result); 140
+*/
