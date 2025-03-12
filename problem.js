@@ -13,3 +13,14 @@ function letConst() {
 
 letConst();
 */
+
+// spread operator with problem solve
+
+/*
+let array1 = [1, 2, 3, 4];
+let array2 = [5, 6, 7, 8];
+
+const result = [...array1, ...array2];
+console.log(result);
+*/
+
