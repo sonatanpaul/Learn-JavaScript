@@ -264,18 +264,17 @@ retFunc();
 
 // recursion
 
-function foo() {
-  foo();
-}
+// function foo() {
+//   foo();
+// }
 
-function fethchWater(count) {
-  console.log("fateching water", count);
-  if (count === 0) {
-    console.log("no more fatching");
-    return;
-  } else {
-    fethchWater(count - 1);
-  }
-}
+// function fethchWater(count) {
+//   console.log("fateching water", count);
+//   if (count === 0) {
+//     console.log("no more fatching");
+//     return;
+//   }
+//   fethchWater(count - 1);
+// }
 
-fethchWater(5);
+// fethchWater(5);
