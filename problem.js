@@ -33,3 +33,13 @@ console.log(numbers);
 const newNumbers = numbers.filter((number) => number > 30);
 console.log(newNumbers);
 */
+
+// map method
+
+/*
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
+
+let newNumbers = numbers.map((number) => number * 2);
+console.log(newNumbers);
+*/
