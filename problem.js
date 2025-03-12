@@ -52,3 +52,11 @@ console.log(numbers);
 let newNumber = numbers.find((number) => number > 15);
 console.log(newNumber);
 */
+
+// arrow function
+
+const greet = (name = "Alice") => "Hello," + " " + name;
+console.log(greet()); // Hello, Alice;
+console.log(greet("Bob")); // Hello, Bob
+
+
