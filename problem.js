@@ -24,3 +24,12 @@ const result = [...array1, ...array2];
 console.log(result);
 */
 
+// filter method
+
+/*
+let numbers = [10, 20, 25, 30, 35, 40];
+console.log(numbers);
+
+const newNumbers = numbers.filter((number) => number > 30);
+console.log(newNumbers);
+*/
