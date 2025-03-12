@@ -43,3 +43,12 @@ console.log(numbers);
 let newNumbers = numbers.map((number) => number * 2);
 console.log(newNumbers);
 */
+
+// find method
+/*
+let numbers = [5, 10, 15, 20, 25];
+console.log(numbers);
+
+let newNumber = numbers.find((number) => number > 15);
+console.log(newNumber);
+*/
