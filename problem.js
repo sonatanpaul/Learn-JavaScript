@@ -55,8 +55,10 @@ console.log(newNumber);
 
 // arrow function
 
+/*1
 const greet = (name = "Alice") => "Hello," + " " + name;
 console.log(greet()); // Hello, Alice;
 console.log(greet("Bob")); // Hello, Bob
+*/
 
 
