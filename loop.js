@@ -159,11 +159,69 @@ do {
 // practice
 
 // 1 to 10
+/*
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
+*/
 
 // 10 to 1
+/*
 for (let i = 10; i >= 1; i--) {
   console.log(i);
 }
+*/
+
+// find odd number with foor loop
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log("even number", i);
+//   }
+// }
+
+/*
+for (let i = 1; i <= 10; i++) {
+  // console.log(i);
+  if (i % 2 === 1) {
+    console.log("odd number is", i);
+  }
+}
+*/
+
+// for (let i = 20; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//   console.log(i);
+//   for (let n = 5; n >= i; n--) {
+//     console.log(n);
+//   }
+// }
+
+// let num = 1;
+// while (num <= 10) {
+//   console.log(num);
+//   num++;
+// }
+
+// let count = 10;
+// while (count >= 1) {
+//   console.log(count);
+//   count--;
+// }
+
+// let number = 10;
+// do {
+//   console.log(number);
+//   number--;
+// } while (number >= 1);
+
+
+
+let count = 1;
+do {
+  console.log(count);
+  count++;
+} while (count <= 10);
