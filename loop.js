@@ -55,11 +55,11 @@ console.log(totalOdd);
 
 // nested loop
 
-for (let i = 1; i <= 1; i++) {
-  for (let j = 1; j <= 3; j++) {
-    console.log("Row", i, "Col", j);
-  }
-}
+// for (let i = 1; i <= 1; i++) {
+//   for (let j = 1; j <= 3; j++) {
+//     console.log("Row", i, "Col", j);
+//   }
+// }
 
 // break and continue keyword
 
@@ -96,13 +96,13 @@ for (let i = 1; i <= 10; i++) {
 //   console.log(star);
 // }
 
-for (let i = 5; i >= 1; i--) {
-  let satar = "";
-  for (let j = 1; j <= i; j++) {
-    satar = satar + "*";
-  }
-  console.log(satar);
-}
+// for (let i = 5; i >= 1; i--) {
+//   let satar = "";
+//   for (let j = 1; j <= i; j++) {
+//     satar = satar + "*";
+//   }
+//   console.log(satar);
+// }
 
 // while loop
 
@@ -155,4 +155,5 @@ do {
 } while (count >= 1);
 */
 
-
+// ============================================================
+// revise
